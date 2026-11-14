@@ -55,22 +55,23 @@ h1 {
     padding: 16px;
     opacity: .7;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--secondary-color);
 }
 
 h2 {
     width: 100%;
     padding: 16px;
-    background-color: var(--accent1-color);
-    color: white;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    opacity: .9;
 }
 
-article {
+.hero article {
     position: absolute;
     background-color: var(--accent1-color);
-    opacity: .7;
+    opacity: 1;
     bottom: 20px;
-    color: white;
+    color: var(--secondary-color);
 }
 
 .hero article img {
