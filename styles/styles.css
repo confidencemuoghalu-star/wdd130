@@ -21,12 +21,14 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 nav a {
     color: white;
     display: block;
     padding: var(--padding);
+    text-decoration: none;
 }
 
 
