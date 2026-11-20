@@ -5,6 +5,8 @@
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --footer-color: #000;
+
 }
 
 * {
@@ -90,7 +92,7 @@ h2 {
 }
 
 footer {
-    border-top: 1px solid black;
+    border-top: 1px solid var(--footer-color);
 }
 
 .grid {
