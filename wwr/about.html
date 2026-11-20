@@ -12,16 +12,18 @@
 
 <body>
     <header>
-        <img src="images/raftinglogo.webp" alt="Rafting Company Logo">
-        
-        <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="trips.html">Trips</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="grid">
+            <img src="images/raftinglogo.webp" alt="Rafting Company Logo">
+
+            <nav>
+                <ul class="flex">
+                    <li class="size"><a href="index.html">Home</a></li>
+                    <li class="size"><a href="about.html">About Us</a></li>
+                    <li class="size"><a href="trips.html">Trips</a></li>
+                    <li class="size"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -32,7 +34,7 @@
 
             <article>
                 <img src="images/happy-clients.webp" alt="Happy clients enjoying rafting">
-                
+
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore dignissimos nemo pariatur hic molestias ex, autem inventore quo similique! Qui dolores inventore voluptate? Perspiciatis, officiis sed porro quisquam consectetur temporibus.</p>
             </article>
         </div>
@@ -40,17 +42,48 @@
         <section>
             <h2>History</h2>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis ex repellat quisquam natus, excepturi exercitationem temporibus omnis nemo dolores maiores recusandae repellendus nisi facere non, reprehenderit sequi ducimus iusto amet.</p>
+            <div class="history-grid">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis ex repellat quisquam natus, excepturi exercitationem temporibus omnis nemo dolores maiores recusandae repellendus nisi facere non, reprehenderit sequi ducimus iusto amet.</p>
+                <img src="images/adventure-pic-c.jpg" alt="History picture">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis ex repellat quisquam natus, excepturi exercitationem temporibus omnis nemo dolores maiores recusandae repellendus nisi facere non, reprehenderit sequi ducimus iusto amet.</p>
+            </div>
         </section>
 
         <section>
             <h2>Adventure Awaits You!</h2>
+
+            <div class="adventure-grid">
+                <figure class="adventure-item">
+                    <img src="images/adventure-pic-a.jpg" alt="Adventure pic 1">
+                    <figcaption>Los Dientes</figcaption>
+                </figure>
+
+                <figure class="adventure-item">
+                    <img src="images/adventure-pic-b.jpg" alt="Adventure pic 1">
+                    <figcaption>Del Diablo</figcaption>
+                </figure>
+
+                <figure class="adventure-item">
+                    <img src="images/adventure-pic-c.jpg" alt="Adventure pic 1">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+
+                <figure class="adventure-item">
+                    <img src="images/adventure-pic-d.jpg" alt="Adventure pic 1">
+                    <figcaption>Half Day Advent</figcaption>
+                </figure>
+
+                <figure class="adventure-item">
+                    <img src="images/adventure-pic-e.jpg" alt="Adventure pic 1">
+                    <figcaption>Del Falar</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer-flex">
         <p>&copy; 2026 || Peace Lake Rafting Company || Confidence Muoghalu</p>
-        
+
         <nav class="socialmedia">
             <a href="https://facebook.com">
                 <img src="images/facebook-square.svg" alt="Facebook Icon" width="50">
